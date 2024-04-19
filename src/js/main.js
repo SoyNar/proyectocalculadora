@@ -1,6 +1,7 @@
 let resultado;
 let num1;
 let num2;
+let option;
 
 let menu = ` Menu
           1. sumar
@@ -17,7 +18,7 @@ let menu = ` Menu
 
 
 let calcula = (option, num1, num2) => {
-    console.log(menu);
+    
     if(option == 1){
         return num1 + num2;
     }else if (option == 2){
@@ -33,6 +34,7 @@ let calcula = (option, num1, num2) => {
     }
 }
 let Options = () =>{
+    alert(menu);
     let option = Number(prompt("Escoja la operacion"));
     let num1 = parseFloat(prompt("escriba el primer numero"));
     let num2 = parseFloat(prompt("escriba el segundo numero"));
