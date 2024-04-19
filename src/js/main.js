@@ -1,4 +1,6 @@
 let resultado;
+let num1;
+let num2;
 
 let menu = ` Menu
           1. sumar
@@ -45,4 +47,4 @@ if(!isNaN(num1) && !isNaN(num2)){
     console.log(`numeros no validos`);
 }
 
-calcula(option, num1, num2);
+Options();
